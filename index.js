@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/home', (req, res) => {
-  res.sendFile(__dirname + "/index1.html");
+  res.sendFile(__dirname + "/home.html");
 });
 
 app.get('/projects', (req, res) => {
