@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/projects', (req, res) => {
-  res.sendFile(__dirname + "/views/projects.html");
+  res.sendFile("/views/projects.html");
 });
 
 app.listen(3000, () => {
